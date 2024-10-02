@@ -7,16 +7,9 @@ public class App implements Runnable{
 
     @Override
     public void run() {
+
+
         System.out.println("hello world");
 
-        while(true){
-            try {
-                Thread.sleep(1000);
-                System.out.println("thread -sleep -1");
-                System.out.println("sdfiew");
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
     }
 }
