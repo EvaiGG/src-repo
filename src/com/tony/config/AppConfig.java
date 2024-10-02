@@ -9,4 +9,7 @@ public class AppConfig {
     public Properties getProp(){
         return this.prop;
     }
+
+    @Resource
+    private String static_string;
 }
